@@ -1,0 +1,64 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	max-width: 1000px;
+	margin:auto;
+	padding:0;
+}
+#container {
+	padding-left: 100px;
+	position: relative;
+	width: 100%;
+	left: 0;
+}
+
+#coverimg {
+	width:auto;
+	}
+
+#logo a {
+	position: absolute;
+	border:2px solid orange;
+	border-radius: 50%;
+	top: 125px;
+	left:110px;
+}
+#menu {
+	position: absolute;
+	width: 100px;
+	background-color: #286687;
+	height:950px ;
+	left:0px;
+	top:0px;
+}
+#menu a {
+	text-decoration: none;
+	color: #e8e8e8;
+	font-weight: bold;
+	line-height: 40px;
+	height: 40px;
+}
+#menu a:hover {color:red;}	
+#menu a:visited {color: #e8e8e8;}
+#menu a:active {color:yellow;}
+#menu a:link {color:blue;}
+#content .row1, .row2, .row3 {
+	width: 295px;
+	height:200px;
+	border:1px solid orange;
+	float: left;
+	margin:0 5px 5px 0;
+}
+#lexus, #peugeot, #ferrari {
+	margin-right: 0;
+	float: right;
+}
+#audi, #honda, #lambo {
+	margin-left:5px;
+}
+#chat {
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+}
